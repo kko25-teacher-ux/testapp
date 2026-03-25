@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-	int m;	
+	int m,k=0;	
 	
 	printf("menu : ");
 	scanf("%d", &m);
@@ -10,7 +10,7 @@ int main() {
 		case 2: printf("2학년 교무실"); break;
 		case 3: printf("3학년 교무실"); break;
 		case 4: printf("행정실"); break;
-		default: printf("다시 선택하세요.");			
+		default: printf("다시 선택해주세요.");			
 	}
 	    	
 	return 0;
